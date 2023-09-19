@@ -4,15 +4,20 @@ metadata:
   name: vvn-clockpresales-consolidate-lmb
   description: some description
   annotations:
-    dev.azure.com/project-repo:  <organisation>/<project>
-    sentry.io/project-slug: <organisation>-<project>
+    backstage.io/source-location: url:todo
+
   tags:
-    <tags>    
-  links:
-    <links>
+    - lambda
+    - aws
+    
+
 
 spec:
   type: lambda
   system: vvnconsilidations
   lifecycle: production
   owner: team_veilen_dev
+  dependsOn:
+    - component:default/aax-clockpresales-unknown-lmb
+    - resource:default/vvn-clockpresales-consolidate-queue
+

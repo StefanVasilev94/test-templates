@@ -4,15 +4,17 @@ metadata:
   name: vvn-pc-clockpresales-publisher-lmb
   description: some description
   annotations:
-    dev.azure.com/project-repo:  <organisation>/<project>
-    sentry.io/project-slug: <organisation>-<project>
+    backstage.io/source-location: url:todo
+
   tags:
-    <tags>    
-  links:
-    <links>
+    - lambda
+    - aws
+    
+
 
 spec:
   type: lambda
   system: vvnconsilidations
   lifecycle: production
   owner: team_veilen_dev
+

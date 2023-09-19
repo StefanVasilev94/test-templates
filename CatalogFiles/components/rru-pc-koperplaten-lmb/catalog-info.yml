@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rru-pc-koperplaten-lmb
+  description: some description
+  annotations:
+    dev.azure.com/project-repo:  <organisation>/<project>
+    sentry.io/project-slug: <organisation>-<project>
+  tags:
+    <tags>    
+  links:
+    <links>
+
+spec:
+  type: lambda
+  system: vvnconsilidations
+  lifecycle: production
+  owner: team_veilen_dev

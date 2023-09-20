@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: vvnclockpresales
+  description: some description
+spec:
+  owner: team_veilen_dev
+  domain: rfh_veilen

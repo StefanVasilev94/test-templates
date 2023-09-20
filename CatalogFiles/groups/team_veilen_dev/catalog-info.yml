@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team_veilen_dev
+  description: Team veilen dev teams
+spec:
+  type: team
+  profile:
+    displayName: Team Veilen
+    email: team_veilen@rfh.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg

@@ -18,3 +18,5 @@ spec:
   lifecycle: production
   owner: team_veilen_dev
 
+  providesApis:
+    <providesApis>

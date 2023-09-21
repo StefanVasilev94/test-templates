@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: settlementrequests_shared_
+  name: settlementrequests-shared
   description: some description
 spec:
   type: dynamodb

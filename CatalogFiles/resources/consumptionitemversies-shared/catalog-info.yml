@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: settlement_states_shared_
+  name: consumptionitemversies-shared
   description: some description
 spec:
   type: dynamodb

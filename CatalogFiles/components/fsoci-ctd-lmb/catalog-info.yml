@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: fsobs-fre-lmb
+  name: fsoci-ctd-lmb
   description: some description
   annotations:
     backstage.io/source-location: url:todo
@@ -18,4 +18,4 @@ spec:
   lifecycle: production
   owner: team_veilen_dev
   dependsOn:
-    - resource:default/fsobs-fre-sqs
+    - resource:default/fsoci-cis-sqs

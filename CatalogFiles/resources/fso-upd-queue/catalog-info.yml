@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: fso-upd-queue
+  description: some description
+spec:
+  type: sqs
+  owner: team_veilen_dev
+  system: team_international

@@ -17,3 +17,5 @@ spec:
   system: team_international
   lifecycle: production
   owner: team_veilen_dev
+  dependsOn:
+    - resource:default/fsoci-bts-queue

@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: ax_dbsbuf-vek_tra
-  description: some description
-spec:
-  type: rds
-  owner: team_veilen_dev
-  system: vvnconsilidations

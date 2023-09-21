@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: team_international
+  description: some description
+spec:
+  owner: team_veilen_dev
+  domain: rfh_veilen

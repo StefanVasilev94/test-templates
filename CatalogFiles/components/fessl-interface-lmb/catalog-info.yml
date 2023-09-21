@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fessl-interface-lmb
+  description: some description
+  annotations:
+    backstage.io/source-location: url:todo
+
+  tags:
+    - lambda
+    - aws
+    
+
+
+spec:
+  type: lambda
+  system: team_international
+  lifecycle: production
+  owner: team_veilen_dev
+

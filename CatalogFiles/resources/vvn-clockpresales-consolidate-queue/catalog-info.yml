@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: vvn-clockpresales-consolidate-queue
-  description: some description
-spec:
-  type: sqs
-  owner: team_veilen_dev
-  system: vvnconsilidations

@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: vvn-pc-clockconsolidation-tbl
-  description: some description
-spec:
-  type: dynamodb
-  owner: team_veilen_dev
-  system: vvnconsilidations

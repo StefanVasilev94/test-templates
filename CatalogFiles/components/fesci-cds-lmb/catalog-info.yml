@@ -18,9 +18,6 @@ spec:
   lifecycle: production
   owner: team_international_dev
   dependsOn:
-    - component:default/fso-upd-lmb
-    - component:default/fsoci-cis-lmb
-    - component:default/fsobs-sud-lmb
-    - component:default/fsobs-bts-lmb
     - resource:default/fesci-cds-api
     - resource:default/citrelatedentity-shared
+

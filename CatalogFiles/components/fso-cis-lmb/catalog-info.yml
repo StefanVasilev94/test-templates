@@ -20,3 +20,4 @@ spec:
   dependsOn:
     - resource:default/fso-cis-api
     - resource:default/settlement-states-shared
+

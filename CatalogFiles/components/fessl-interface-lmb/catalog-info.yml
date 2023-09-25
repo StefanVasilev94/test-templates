@@ -19,3 +19,4 @@ spec:
   owner: team_international_dev
   dependsOn:
     - resource:default/fessl-interface-api
+

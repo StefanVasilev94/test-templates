@@ -21,3 +21,7 @@ spec:
     - resource:default/fesbs-bil.sqs
     - resource:default/sap-hybris
     - resource:default/klant-service
+
+  providesApis:
+    - sap-hybris
+    - klant-service

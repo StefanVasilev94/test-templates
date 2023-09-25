@@ -20,3 +20,6 @@ spec:
   dependsOn:
     - resource:default/fso-res-queue
     - resource:default/floriday
+
+  providesApis:
+    - floriday

@@ -20,3 +20,4 @@ spec:
   dependsOn:
     - resource:default/fsoci-res-queue
     - resource:default/consumptionitemrequests-shared
+

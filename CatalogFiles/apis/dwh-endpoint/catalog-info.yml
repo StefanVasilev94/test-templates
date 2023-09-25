@@ -6,7 +6,7 @@ metadata:
 
 
 spec:
-  type: apigateway
+  type: openapi
   lifecycle: production
   owner: team_international_dev
   system: team_international

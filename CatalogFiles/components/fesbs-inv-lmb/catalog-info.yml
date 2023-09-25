@@ -16,4 +16,6 @@ spec:
   type: lambda
   system: team_international
   lifecycle: production
-  owner: team_veilen_dev
+  owner: team_international_dev
+  dependsOn:
+    - resource:default/fesbs-inv-api

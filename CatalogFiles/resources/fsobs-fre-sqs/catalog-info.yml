@@ -5,5 +5,5 @@ metadata:
   description: some description
 spec:
   type: sqs
-  owner: team_veilen_dev
+  owner: team_international_dev
   system: team_international

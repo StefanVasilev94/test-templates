@@ -16,7 +16,9 @@ spec:
   type: lambda
   system: team_international
   lifecycle: production
-  owner: team_veilen_dev
+  owner: team_international_dev
   dependsOn:
     - resource:default/fsobs-sud-queue
     - resource:default/settlementstates-shared
+    - resource:default/fesci-cds-api
+    - resource:default/fso-ces-api

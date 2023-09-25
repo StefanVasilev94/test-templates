@@ -18,6 +18,8 @@ spec:
   lifecycle: production
   owner: team_international_dev
   dependsOn:
+    - component:default/fesci-cds-lmb
+    - component:default/fso-ces-lmb
     - resource:default/fsobs-sud-queue
     - resource:default/settlementstates-shared
     - resource:default/fesci-cds-api

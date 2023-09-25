@@ -18,5 +18,6 @@ spec:
   lifecycle: production
   owner: team_international_dev
   dependsOn:
+    - component:default/fsobs-cis-lmb
     - resource:default/fsoci-bts-queue
     - resource:default/fsobs-cis-api

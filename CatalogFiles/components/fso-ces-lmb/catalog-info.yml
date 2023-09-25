@@ -18,5 +18,7 @@ spec:
   lifecycle: production
   owner: team_international_dev
   dependsOn:
+    - component:default/fsobs-sud-lmb
+    - component:default/fsobs-bts-lmb
     - resource:default/fso-ces-api
     - resource:default/settlement-states-shared

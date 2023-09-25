@@ -18,5 +18,6 @@ spec:
   lifecycle: production
   owner: team_international_dev
   dependsOn:
+    - component:default/fsoci-bts-lmb
     - resource:default/fsobs-cis-api
     - resource:default/settlementstates-shared

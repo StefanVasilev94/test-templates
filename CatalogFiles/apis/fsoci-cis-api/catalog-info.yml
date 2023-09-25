@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: fsoci-cis-api
-  description: some description
+  description: apigateway
 
 
 spec:
-  type: apigateway
+  type: openapi
   lifecycle: production
   owner: team_international_dev
   system: team_international

@@ -18,6 +18,7 @@ spec:
   lifecycle: production
   owner: team_international_dev
   dependsOn:
+    - component:default/fesci-cds-lmb
     - resource:default/fsoci-cis-api
     - resource:default/consumptionitemversies-shared
     - resource:default/consumptionitemrequests-shared
